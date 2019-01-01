@@ -3,6 +3,7 @@ package mod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import mod.objects.items.Cocaine;
 import mod.objects.items.ColaClosed;
 import mod.objects.items.ItemBase;
 import mod.objects.items.food.FoodBase;
@@ -24,4 +25,5 @@ public class ItemInit {
 	
 	//Items
 	public static final Item COLA_CLOSED = new ColaClosed("cola_closed");
+	public static final Item COCAINE = new Cocaine("cocaine");
 }
