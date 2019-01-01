@@ -1,0 +1,22 @@
+{
+    
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/coke_lines",
+		"particle": "coke_lines"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 1, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "coke_lines",
+			"children": []
+		}, 0]
+}

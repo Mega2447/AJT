@@ -2,6 +2,7 @@
 item.cola_closed.name=Coca Cola (Unopened)
 
 //Blocks
+tile.coke_lines.name=Coke Lines
 
 //Food
 item.cola.name=Coca Cola (Opened)
