@@ -1,0 +1,10 @@
+//Items
+item.cola_closed.name=Coca Cola (Unopened)
+
+//Blocks
+
+//Food
+item.cola.name=Coca Cola (Opened)
+
+//Misc
+itemGroup.modtab=Austin J Thomas

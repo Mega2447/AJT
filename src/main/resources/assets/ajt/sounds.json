@@ -1,0 +1,8 @@
+{
+    "item.cola.open":
+    {
+        "category": "item",
+        "subtitle": "item.cola.open",
+        "sounds": [{ "name": "ajt:item/cola/open", "stream": true}]
+    }
+}
