@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "blocks/coke_lines",
-		"particle": "coke_lines"
+		"particle": "blocks/coke_lines"
 	},
 	"elements": [
 		{
