@@ -1,5 +1,6 @@
 package mod.objects.items;
 
+import mod.init.BlockInit;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
@@ -18,7 +19,15 @@ public class Cocaine extends ItemBase {
 	public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand,
 			EnumFacing facing, float hitX, float hitY, float hitZ) {
 		ItemStack itemstack = player.getHeldItem(hand);
-		BlockPos pos2 = new BlockPos(pos.getX(), pos.getY() + 1, pos.getZ());
+		BlockPos pos2 = pos.up();
 		
+		if(worldIn.isAirBlock(pos2)) {
+			worldIn.setBlockState(pos2, BlockInit.COKE_LINES.getDefaultState());
+			return EnumActionResult.SUCCESS;
+		}
+		else {
+			System.out.println("Can only be used on blocks with air over them");
+			return EnumActionResult.FAIL;
+		}
 	}
 }
